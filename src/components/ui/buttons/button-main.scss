@@ -1,0 +1,33 @@
+[class^='btn-'] {
+  cursor: pointer;
+  border-style: hidden;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #4b51ef;
+}
+
+[class^='btn-']:disabled {
+  cursor: unset;
+  background: #afafaf;
+}
+
+[class^='btn-']:hover:enabled {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.233);
+}
+
+[class^='btn-']:active:enabled {
+  box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.233);
+}
+
+.btn-sort {
+  margin-bottom: 10px;
+}
+
+.btn-submit {
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  background: #52cf4f;
+}
